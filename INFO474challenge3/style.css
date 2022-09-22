@@ -1,0 +1,68 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+html{
+    min-height: 100%
+}
+
+body {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    color: #163D57
+}
+
+svg{
+
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2); 
+    border-radius: 5px; 
+    padding: 10px;
+}
+
+#canvas{
+    min-height: 600px;
+    min-width: 1200px;
+}
+
+
+.cell:hover{
+    fill: black
+}
+
+g{
+    color: #435296
+}
+
+#tooltip{
+    visibility: hidden;
+    height: auto;
+    width: auto;
+    color: #163D57;
+
+}
+
+#legend{
+    color: rgb(56, 58, 74);
+    font-size: 18px;
+    text-align: center;
+    min-height: 150px;
+}
+
+
+#title{
+    font-size: 28px;
+    color: #1d3b4e;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.axis {
+    stroke: white;
+    opacity: .8;
+ }
+
+

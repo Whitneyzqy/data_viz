@@ -1,1 +1,14 @@
-# data_viz
+## INFO474 Design Challenge 
+
+This web page contains a series of weather data visualizations in different three locations, Seattle, Houston, and New York City from 2014 to 2015 using d3.js. Datasets come from course materials.
+
+#### Design Overview
+Design Challenge 3
+This weather data visualization comes from three different datasets, the weather conditions in Houston, New York City, and Seattle from 2014 to 2015. And there are mainly two parts, the temperature heatmap and the radial bar charts of precipitation. For the average temperature heatmap, the x-axis represents the city and the y-axis stands for the time(in days) from July 2014 to June 2015. Each small colored rectangle represents the daily average temperature of that day. When users hover on each rectangle, they can see a tooltip that shows more detailed information of date, daily high/low temperature, and the average temperature of that day. The color legend shows the temperature range and the unit is in Fahrenheit.
+On the other hand, the series of precipitation data visualizations show the actual and recorded precipitation pattern in three different cities. The circle is divided into 12 arcs and each arc represents a month. And the y-axis is the amount of rainfall in inches. Each blue bar represents the actual amount of rainfall on that day and the green bar shows the highest amount of rain or snow on that day since 1880.
+
+
+#### User Tasks
+For the temperature heatmap, several user tasks come along with it. First of all, as a farmer, I want to know the annual average temperature changes in Seattle, so that I can prepare to grow different agricultural products. Besides, as a traveler, I want to know the average temperature ranges in Houston and New York in different months so that I can plan out when to visit these places. Also, as an outdoor worker, I want to identify the specific daily high and low temperatures in Seattle in June and July, so that I can know what to wear during work time. In addition, as a meteorologist, I want to compare the annual average temperature patterns in these three cities so that I can gain insights into how geographical location affects annual average temperatures in different regions. Furthermore, viewers can count how many days the average temperature is above or below certain temperatures in each of the three locations shown to answer analytical questions.
+
+According to the precipitation radial bar chart, questions about comparing rainfall patterns can be answered effectively. Viewers can first compare the actual and record rainfall patterns among these three cities. Then from a detailed perspective, they can also see what the daily actual amount of precipitation is and how the historical amount of rainfall on that day. Here are some example user tasks. As a reporter, I want to compare the patterns of actual rainfall in these cities so that I can present the insights to my audience. As a history student, I want to compare the daily actual amount of rainfall to the record precipitation amount in Seattle so that I can write my paper.
